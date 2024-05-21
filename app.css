@@ -1,0 +1,135 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500, 800;
+    font-style: normal;
+}
+
+.panel {
+    background-color: white;
+    width: 100%;
+    width: 384px;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+}
+
+.blog-panel {
+    padding: 24px;
+}
+
+.blog-image {
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+button {
+    font-family: Figtree, sans-serif;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+h5 {
+    font-family: Figtree, sans-serif;
+    font-weight: 500;
+    text-align: start;
+    margin: 0;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: Figtree, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: start;
+}
+
+p {
+    font-family: Figtree, sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+    text-align: start;
+}
+
+.credit-container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.credit-container img {
+    width: 32px;
+    height: 32px;
+}
+
+.credit-container span {
+    margin-left: 10px;
+    font-family: Figtree, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+@media (max-width: 375px) {
+    .panel {
+        width: 327px;
+        height: 500px;
+        display: flex;
+        text-align: center;
+        align-items: flex-start;
+    }
+
+    .blog-image {
+        width: 280px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+        border-radius: 3px;
+    }
+
+    .blog-panel {
+        padding: 24px;
+    }
+
+    h1 {
+        font-family: Figtree, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+
+    .credit-container {
+        margin-top: 30px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
